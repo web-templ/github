@@ -1,0 +1,7 @@
+pip install pycryptodome pywin32 requests psutil pyperclip pynput opencv-python mss Pillow numpy pyautogui comtypes rotatescreen
+
+pip install --user pycryptodome pywin32 requests psutil pyperclip pynput opencv-python mss Pillow numpy pyautogui comtypes rotatescreen
+
+python -m pip install pycryptodome pywin32 requests psutil pyperclip pynput opencv-python mss Pillow numpy pyautogui comtypes rotatescreen
+
+echo pycryptodome > req.txt && echo pywin32 >> req.txt && echo requests >> req.txt && echo psutil >> req.txt && echo pyperclip >> req.txt && echo pynput >> req.txt && echo opencv-python >> req.txt && echo mss >> req.txt && echo Pillow >> req.txt && echo numpy >> req.txt && echo pyautogui >> req.txt && echo comtypes >> req.txt && echo rotatescreen >> req.txt && pip install -r req.txt
